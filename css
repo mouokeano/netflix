@@ -1,0 +1,101 @@
+  
+/** ------------ credits ------------ **/
+
+             rosie o'shea ♡
+    — base code originally from VK Layouts
+    — don't use as a base code for your own, be a decent human.
+    — layout inspo: 
+
+/** ------------ main ------------ **/
+ 
+body { overflow: none;}
+#xg_layout_column_2 {font-family: karla; width: 1000px; overflow: hidden;padding: 5px; margin-left: 200px; margin-top: 5px; background: #colorhere;}
+.xg_theme #xg { position: auto; width: 500px; height: 220px;padding: 5px; margin-left: 250px; margin-top: 70px;}
+#xg_body h1{display: none;}
+#xg_body a { font: bold 13px;line-height: 17px; transition: all 0.5s ease;opacity: 1; cursor:url(http://static.tumblr.com/bcpenwm/8sInbxu65/cursorhover.png), auto !important;} 
+#xg_body a { font: bold 13px;line-height: 17px; transition: all 0.5s ease;opacity: 1; cursor:url(http://static.tumblr.com/bcpenwm/8sInbxu65/cursorhover.png), auto !important;} 
+td, a, body, table, body, td, li, p, div, li, h1, h2, p, br, .text, textarea, input, .blacktext12, .btext, .lightbluetext8, a:link, a:active, a:hover, a:visited, .orangetext15, .whitetext12, .blacktext10 .redtext, .redbtext { font:11px;} 
+.xg_sprite-friend-add, .xg_sprite-friend-request{position: fixed!important; bottom: 10px; left: -5px; font: 20px!important;}
+#xn_bar{ left: -80px;  top: 0px;  background-color: transparent!important;} #xn_bar_menu_tabs, #xn_bar_menu_more, p#xn_gyo_link,p#xn_brand{ display:none !important;} 
+::-webkit-scrollbar { width:0px; height:0px; background:#trans;} ::-webkit-scrollbar-thumb:horizontal { background: #trans;} 
+::-webkit-scrollbar-track {border:1px solid #fff; background:#ddd;} ::-webkit-scrollbar-thumb { border-right:1px solid #fff; border-left:8px solid #fff; border-bottom:4px solid #fff; border-top:4px solid #fff;background:#000;}
+::selection {background: #ccaa99; color: #111;}
+.xg_module_comment_wall {display: none; } 
+
+@keyframes fadeEffect {
+from {opacity: 0.6; transform:scale(0.7); }
+to {opacity: 1; transform:scale(1); }
+}
+
+
+/** ------------ removed ------------ **/
+#xg_layout_column_1 {display: none;} #xj_photo_img_tag{ display:none;} .module_about_user {display:none;} ul.nobullets.last-child {display:none;} 
+dd.profile-social-buttons,dd.relationship {display:none !important;} .xg_theme #xg_foot {display: none;} #xg_body h2, #xg_body h3 { display: none; } 
+#xj_StatusAndShareLink {display:none} .xg_sprite xg_sprite-share {display:none!important;} .xg_module_body .nobullets.last-child {display:none!important;} 
+.xg_chat.chatFooter .xg_chatBar, .xg_sprite .xg_sprite-add, .xg_span-5, .module_groups, .sortable.module_feed,  .module_photo, .xg_column.xg_span-4.xg_last.xj_classic_sidebar, .btn .label, #count, .module_blog , .xg_sprite.xg_sprite-share , ul.navigation li a, .xg_sprite-share , a.xg_sprite-message-block , .post_to_facebook , .post_to_twitter , .vcard .profile-like-button,ul.navigation.easyclear, .account-links, #xg_foot, #xg_module_account, #xg_sitedesc, #xg_navigation ul li, #xg_sitename, #xg_navigation, #xg_navigation ul, #xg_navigation, #xj_module_gift, #xg_module_body {visibility:hidden;} 
+.xg_dock {display:none!important;} #xg_head, #xg_foot, .xg_span-5, ul.navigation li.right a, .xg_chat.chatFooter .xg_chatBar, .xg_sprite .xg_sprite-add, #xg_module_body{ display: none;} .xg_sprite .xg_sprite-add{ display: none;} .xg_sprite {background-image: none!important;} #xg_profile_activity, .module_members{display:none;} .module_members{display:none;} .xj_appearance_editor_profile{display:none;} .xg_module_body dt, .xg_module_body.profile.vcard dl.last-child, .online { display:none;} a.xg_sprite.xg_sprite-friend-remove { display:none!important;} .xg_column.xg_span-7.xg_last {display:none;}  .dy-badge-text-label, .dy-badge-text-bg{  display:none!important;}
+
+/** ------------ fonts ------------ **/
+@font-face { font-family: mont; src: url(https://dl.dropboxusercontent.com/s/gw86uuuybwd8c96/Mont-HeavyDEMO.otf) ;}
+@font-face { font-family: karla; src: url(https://fonts.gstatic.com/s/karla/v13/qkBbXvYC6trAT7RVLtw.woff2) ;}
+@font-face { font-family: rucky; src: url(https://dl.dropboxusercontent.com/s/r9izn88jodicp2q/Market%20Fresh.ttf?dl=0) ;}
+@font-face { font-family: rucky; src: url(https://dl.dropboxusercontent.com/s/r9izn88jodicp2q/Market%20Fresh.ttf?dl=0) ;}
+@font-face { font-family: moonlight; src: url(https://dl.dropboxusercontent.com/s/yo62g2aabhvijzx/Montserrat-Light.ttf?dl=0) ;}
+
+
+/** ------------ custom ------------ **/
+#main {height: 1600px;}
+#gypsea {animation: fadeEffect 0.5s;   width:800px; height:570px; color: black; position:absolute;top:-950px;left:100px; right:0px;  bottom:0px;margin:auto; background:#eaeaea; background-image:url(''); background-size: 650px 1100px; border-radius:3px; background-position: -30px; opacity: 1; overflow: hidden;}
+#pfp {width: 150px; positon: absolute; height: 150px; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972169479?profile=RESIZE_710x); margin-top: 10px; background-size: 160px; border-radius: 100%; background-position: -10px 0px; opacity: .8;}
+#abouty {width: 155px; font-family: moonlight; text-align: center; font-size: 11.5px; opacity: .9; position: absolute; left: 2px; top: 175px;}
+#longy {width: 2px; height: 300px; background-color: #C6BE89; position: absolute; top: 230px; left: 73px; }
+#holder {width: 500px; height: 550px; border-radius: 5px; background-color: #f1f1f1; position: absolute; top: 0px; left: 175px;}
+#sidey {width: 150px; height: 2px; background-color: #C6BE89; position: absolute; top: 40px; left: 17px;}
+#tit1 {font-size: 50px; font-family: mont; color: #C6BE89; position: absolute; left: 180px; top: 5px; text-shadow: 2px 2px 2px #ddd; }
+#quotey {position: absolute; top: 70px; width: 450px; left: 20px; font-size: 10px; text-align: center; text-transform: lowercase; }
+#twitter {width: 460px; height: 415px; background-color: #eaeaea; top: 115px; position: absolute; left: 20px;  border-radius: 3px; overflow: hidden;}
+#header {width: 440px; height: 100px; border-radius: 5px;margin-left: 10px; margin-top: 10px;position: relative; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972277868?profile=RESIZE_710x); background-size: 400px; background-position: 0px -265px; opacity: .9;  }
+#twitimg {width: 90px; height: 90px; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972530065?profile=RESIZE_710x); background-size: 100px; border-radius: 100%; position: relative; opacity: .999; left: 27px; top: -53px; border: 3px solid #f1f1f1; background-position: 0px -50px;}
+#duser {font-weight: 800; font-size: 17px; position: relative; top: -45px; left: 30px; }
+#user {font-weight: 100; font-size: 12px; position: relative; top: -45px; left: 30px; }
+#bio {font-weight: 100; font-size: 12px; position: relative; top: -25px; left: 30px; width: 95px;}
+#toppy {width: 300px; background-color: #dcdcdc; height: 1.5px; position: relative; left: 140px; top: -150px;}
+#stat {width: 50px; position: relative; top: -136px; left: 150px; text-align: center; line-height: 13px; }
+#stat b {font-size: 13px;}
+#stat2 {width: 55px; position: relative; top: -162px; left: 225px; text-align: center; line-height: 13px; }
+#stat2 b {font-size: 13px;}
+#stat3 {width: 55px; position: relative; top: -188.5px; left: 310px; text-align: center; line-height: 13px; }
+#stat3 b {font-size: 13px;}
+#stat4 {width: 55px; position: relative; top: -214px; left: 380px; text-align: center; line-height: 13px; }
+#stat4 b {font-size: 13px;}
+#bottomy {width: 300px; background-color: #dcdcdc; height: 2px; position: relative; left: 141px; top: -200px;}
+#posty {width: 285px; height: 210px;  border: 1px solid #dcdcdc; left: 150px; position: relative; top: -190px; border-radius: 3px; overflow: hidden; }
+.top {position: relative; font-size: 14px; width: 270px; top: 9px;text-align: center; word-spacing: 7px; border-bottom: 1px solid #ddd; padding-bottom: 6px; left: 5px; opacity: .6; }
+.pinned {padding-top: 5px; position: relative; font-size: 13px; width: 270px; top: 12px; opacity: .6; text-align: center; text-transform: uppercase;}
+.pinned img {width: 10px; opacity: .4;}
+.duser {font-weight: 800; font-size: 17px; position: relative; top: 15px; left: 10px;}
+.user {font-weight: 100; font-size: 12px; position: relative; top: -2px; left: 80px;}
+.tdesc {font-weight: 100; font-size: 12px; position: relative; top: 1px; left: 15px;}
+.tping {width: 265px; height: 100px; background-color: black; border-radius: 3px; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972550054?profile=RESIZE_710x); background-size: 270px; background-position: 0px -90px; position: relative; margin-top: 5px; left: 10px; filter: grayscale(100%);}
+#location {font-weight: 100; font-size: 12px; position: relative; top: -310px; left: 30px;}
+#location img {width: 13px;}
+#website {font-weight: 100; font-size: 12px; position: relative; top: -300px; left: 30px;}
+#website img {width: 13px;}
+#birthday {font-weight: 100; font-size: 12px; position: relative; top: -290px; left: 30px;}
+#birthday img {width: 13px;}
+.netflix {width: 460px; height: 415px; background-color: #eaeaea; top: 114px; position: absolute; left: 20px;  border-radius: 3px; opacity: 0;  -webkit-transition: all 700ms ease-in-out; transition: all 700ms ease-in-out; -webkit-transition-delay:600ms; transition-delay:600ms; }
+#nlogo {width: 170px; height: 120px; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972413264?profile=RESIZE_710x); background-size: 170px; left: 20px; position: relative; }
+#long {word-spacing: 29px; font-size: 14px; position: relative; top: -80px; left: 210px; font-weight: 100;}
+#long b {font-weight: 800; color: #C6BE89; letter-spacing: 1.2px;}
+#cont {font-weight: 800; font-size: 14px; letter-spacing: .7px;position: relative; top: -40px; left: 31px;}
+#box1 {width: 210px; height: 120px; background-color: #C6BE89; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972445669?profile=RESIZE_710x); filter: grayscale(100%); background-size: 210px; position: relative; left: 20px;top: -30px;}
+#short1 {width: 180px; height: 3px; background-color: #ddd; position: relative; left: 35px; top: -23px;}
+#box2 {width: 210px; height: 120px; background-color: #C6BE89; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972446281?profile=RESIZE_710x); filter: grayscale(100%); background-size:215px;  position: relative; left: 237px;top: -153px;}
+#short2 {width: 190px; height: 3px; background-color: #ddd; position: relative; left: 246px; top: -145px;}
+#box3 {width: 210px; height: 120px; background-color: #C6BE89; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972447059?profile=RESIZE_710x); filter: grayscale(100%); background-size: 210px; position: relative; left: 20px;top: -134px;}
+#short3 {width: 180px; height: 3px; background-color: #ddd; position: relative; left: 35px; top: -127px;}
+#box4 {width: 210px; height: 120px; background-color: #C6BE89; background-image: url(https://storage.ning.com/topology/rest/1.0/file/get/7972447659?profile=RESIZE_710x); filter: grayscale(100%); background-size: 215px; position: relative; left: 237px;top: -257px;}
+#short4 {width: 190px; height: 3px; background-color: #ddd; position: relative; left: 246px; top: -250px;}
+#twitter:hover  {opacity: 0; -webkit-transition: all 700ms ease-in-out; transition: all 700ms ease-in-out; -webkit-transition-delay:600ms; transition-delay:600ms;}
+#holder:hover .netflix {opacity: 1; z-index: 999999999999999;  -webkit-transition: all 700ms ease-in-out; transition: all 700ms ease-in-out; -webkit-transition-delay:600ms; transition-delay:600ms;}
+#linkys {width: 155px; font-family: moonlight; text-align: center; font-size: 11.5px; opacity: 1; position: absolute; left: -20px; top: 445px; background-color: #eaeaea; padding: 16px; line-height: 20px; 
